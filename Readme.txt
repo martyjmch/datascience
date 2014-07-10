@@ -15,3 +15,5 @@ Here are some commands I've used so far:
 
 > git add -A
 > git commit -m "first change"   git add -A
+
+> git status
