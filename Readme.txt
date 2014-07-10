@@ -17,3 +17,15 @@ Here are some commands I've used so far:
 > git commit -m "first change"   git add -A
 
 > git status
+
+There were some problems.  
+
+Push didn't work at first.  I had to generate a public ssh key on my Mac.  
+Here are the instructions:
+
+  https://help.github.com/articles/generating-ssh-keys
+  
+This helped, but I still needed to to a pull first.  So
+
+> git pull origin master
+> git push origin master
